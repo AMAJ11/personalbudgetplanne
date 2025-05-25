@@ -31,7 +31,7 @@ const categories = ['طعام', 'نقل', 'تسوق', 'راتب', 'غير ذلك
 
 const submit = () => {
   if (!amount.value || !type.value || !category.value) return
-  if(category.value=="Other"){
+  if(category.value=="غير ذلك"){
     emit('add-transaction', {
     amount: amount.value,
     type: type.value,
