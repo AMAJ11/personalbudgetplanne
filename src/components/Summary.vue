@@ -1,7 +1,7 @@
 <template>
   <v-card class="mb-4">
     <v-card-text>
-      <v-row>
+      <v-row dir="rtl">
         <v-col><strong>دخل:</strong> {{ income }}</v-col>
         <v-col><strong>خرج:</strong> {{ expense }}</v-col>
         <v-col><strong>متبقي:</strong> {{ balance }}</v-col>
